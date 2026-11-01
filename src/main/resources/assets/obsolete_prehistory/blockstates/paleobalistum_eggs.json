@@ -1,0 +1,21 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "obsolete_prehistory:block/paleobalistum_eggs"
+      },
+      {
+        "model": "obsolete_prehistory:block/paleobalistum_eggs",
+        "y": 90
+      },
+      {
+        "model": "obsolete_prehistory:block/paleobalistum_eggs",
+        "y": 180
+      },
+      {
+        "model": "obsolete_prehistory:block/paleobalistum_eggs",
+        "y": 270
+      }
+    ]
+  }
+}

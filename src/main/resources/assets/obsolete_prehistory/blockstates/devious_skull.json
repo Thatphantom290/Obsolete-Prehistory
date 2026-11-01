@@ -1,0 +1,21 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "obsolete_prehistory:block/devious_skull"
+      },
+      {
+        "model": "obsolete_prehistory:block/devious_skull",
+        "y": 90
+      },
+      {
+        "model": "obsolete_prehistory:block/devious_skull",
+        "y": 180
+      },
+      {
+        "model": "obsolete_prehistory:block/devious_skull",
+        "y": 270
+      }
+    ]
+  }
+}
