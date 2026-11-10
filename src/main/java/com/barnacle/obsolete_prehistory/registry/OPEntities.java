@@ -1,6 +1,7 @@
 package com.barnacle.obsolete_prehistory.registry;
 
 import com.barnacle.obsolete_prehistory.ObsoletePrehistory;
+import com.barnacle.obsolete_prehistory.entity.Antarctilamna;
 import com.barnacle.obsolete_prehistory.entity.Banffia;
 import com.barnacle.obsolete_prehistory.entity.Paleobalistum;
 import net.minecraft.core.registries.BuiltInRegistries;
@@ -22,6 +23,7 @@ public class OPEntities {
 
     public static final DeferredHolder<EntityType<?>, EntityType<Paleobalistum>> PALEOBALISTUM = registerEntity("paleobalistum", Paleobalistum::new, MobCategory.WATER_AMBIENT, builder -> builder.sized(0.9F, 1.2F).eyeHeight(0.45F).clientTrackingRange(10));
     public static final DeferredHolder<EntityType<?>, EntityType<Banffia>> BANFFIA = registerEntity("banffia", Banffia::new, MobCategory.WATER_AMBIENT, builder -> builder.sized(0.9F, 0.4F).eyeHeight(0.45F).clientTrackingRange(10));
+    public static final DeferredHolder<EntityType<?>, EntityType<Antarctilamna>> ANTARCTILAMNA = registerEntity("antarctilamna", Antarctilamna::new, MobCategory.WATER_AMBIENT, builder -> builder.sized(0.9F, 0.9F).eyeHeight(0.45F).clientTrackingRange(10));
 
     public static <E extends Entity> DeferredHolder<EntityType<?>, EntityType<E>> registerEntity(String name, EntityType.EntityFactory<E> factory, MobCategory entityClassification, Consumer<EntityType.Builder<E>> builderConsumer) {
         DeferredHolder<EntityType<?>, EntityType<E>> entity = registerEntityNoLang(name, factory, entityClassification, builderConsumer);

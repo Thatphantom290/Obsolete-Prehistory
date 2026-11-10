@@ -24,12 +24,15 @@ public class OPItems {
 
     public static final DeferredItem<Item> PALEOBALISTUM_SPAWN_EGG = registerSpawnEggItem("paleobalistum", OPEntities.PALEOBALISTUM, 0x643a19, 0xd0952b);
     public static final DeferredItem<Item> BANFFIA_SPAWN_EGG = registerSpawnEggItem("banffia", OPEntities.BANFFIA, 0xb7851e, 0x491c0f);
+    public static final DeferredItem<Item> ANTARCTILAMNA_SPAWN_EGG = registerSpawnEggItem("antarctilamna", OPEntities.ANTARCTILAMNA, 0x215b38, 0xc6c039);
 
     public static final DeferredItem<Item> TANGERINE_FOSSIL = registerItem("tangerine_fossil", () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> MUSACEAE_FOSSIL = registerItem("musaceae_fossil", () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> DOCK_FOSSIL = registerItem("dock_fossil", () -> new Item(new Item.Properties()));
 
     public static final DeferredItem<Item> PALEOBALISTUM_BUCKET = registerItemNoLang("paleobalistum_bucket", () -> new UP2MobBucketItem(OPEntities.PALEOBALISTUM.get(), Fluids.WATER, SoundEvents.BUCKET_EMPTY_FISH, new Item.Properties()));
     public static final DeferredItem<Item> BANFFIA_BUCKET = registerItemNoLang("banffia_bucket", () -> new UP2MobBucketItem(OPEntities.BANFFIA.get(), Fluids.WATER, SoundEvents.BUCKET_EMPTY_FISH, new Item.Properties()));
+    public static final DeferredItem<Item> ANTARCTILAMNA_BUCKET = registerItemNoLang("antarctilamna_bucket", () -> new UP2MobBucketItem(OPEntities.ANTARCTILAMNA.get(), Fluids.WATER, SoundEvents.BUCKET_EMPTY_FISH, new Item.Properties()));
 
     private static <I extends Item> DeferredItem<I> registerItem(String name, Supplier<? extends I> supplier) {
         DeferredItem<I> item = ITEMS.register(name, supplier);

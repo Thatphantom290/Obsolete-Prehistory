@@ -28,6 +28,7 @@ public class OPBlocks {
 
     public static final DeferredBlock<Block> PALEOBALISTUM_EGGS = registerEggBlock("paleobalistum_eggs", () -> new UnderwaterEggBlock(WATER_EGG_PROPERTIES, OPEntities.PALEOBALISTUM::get, 2));
     public static final DeferredBlock<Block> BANFFIA_EGGS = registerEggBlock("banffia_eggs", () -> new UnderwaterEggBlock(WATER_EGG_PROPERTIES, OPEntities.BANFFIA::get, 3));
+    public static final DeferredBlock<Block> ANTARCTILAMNA_SAC = registerEggBlock("antarctilamna_sac", () -> new UnderwaterEggBlock(WATER_EGG_PROPERTIES, OPEntities.ANTARCTILAMNA::get, 1));
 
     private static <B extends Block> DeferredBlock<B> registerBlock(String name, Supplier<? extends B> supplier) {
         DeferredBlock<B> block = BLOCKS.register(name, supplier);

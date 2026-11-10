@@ -1,0 +1,21 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "obsolete_prehistory:block/antarctilamna_sac"
+      },
+      {
+        "model": "obsolete_prehistory:block/antarctilamna_sac",
+        "y": 90
+      },
+      {
+        "model": "obsolete_prehistory:block/antarctilamna_sac",
+        "y": 180
+      },
+      {
+        "model": "obsolete_prehistory:block/antarctilamna_sac",
+        "y": 270
+      }
+    ]
+  }
+}

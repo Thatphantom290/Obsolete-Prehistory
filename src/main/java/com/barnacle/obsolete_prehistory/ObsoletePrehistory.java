@@ -44,6 +44,10 @@ public class ObsoletePrehistory {
             event.accept(OPItems.BANFFIA_BUCKET);
             event.accept(OPItems.BANFFIA_SPAWN_EGG);
             event.accept(OPBlocks.BANFFIA_EGGS);
+            event.accept(OPItems.DOCK_FOSSIL);
+            event.accept(OPItems.ANTARCTILAMNA_BUCKET);
+            event.accept(OPItems.ANTARCTILAMNA_SPAWN_EGG);
+            event.accept(OPBlocks.ANTARCTILAMNA_SAC);
         }
     }
 }

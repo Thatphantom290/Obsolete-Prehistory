@@ -31,6 +31,7 @@ public class LootTableEvents {
         } else if (event.getName().equals(CLIFF_RARE_LOOT)) {
             LootPool addonPool = LootPool.lootPool()
                     .add(LootItem.lootTableItem(OPItems.MUSACEAE_FOSSIL.get()).setWeight(1))
+                    .add(LootItem.lootTableItem(OPItems.DOCK_FOSSIL.get()).setWeight(1))
                     .build();
 
             event.getTable().addPool(addonPool);

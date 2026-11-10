@@ -1,6 +1,7 @@
 package com.barnacle.obsolete_prehistory.event;
 
 import com.barnacle.obsolete_prehistory.ObsoletePrehistory;
+import com.barnacle.obsolete_prehistory.entity.Antarctilamna;
 import com.barnacle.obsolete_prehistory.entity.Banffia;
 import com.barnacle.obsolete_prehistory.entity.Paleobalistum;
 import com.barnacle.obsolete_prehistory.registry.OPEntities;
@@ -15,5 +16,6 @@ public class CommonEvents {
     public static void registerEntityAttributes(EntityAttributeCreationEvent event) {
         event.put(OPEntities.PALEOBALISTUM.get(), Paleobalistum.registerAttributes().build());
         event.put(OPEntities.BANFFIA.get(), Banffia.registerAttributes().build());
+        event.put(OPEntities.ANTARCTILAMNA.get(), Antarctilamna.registerAttributes().build());
     }
 }

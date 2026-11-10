@@ -8,8 +8,16 @@
   "item.obsolete_prehistory.banffia_bucket": "Bucket of Banffia",
   "item.obsolete_prehistory.banffia_spawn_egg": "Banffia Spawn Egg",
   "item.obsolete_prehistory.musaceae_fossil": "Musaceae Fossil",
+  "item.obsolete_prehistory.antarctilamna_bucket": "Bucket of Antarctilamna",
+  "item.obsolete_prehistory.antarctilamna_spawn_egg": "Antarctilamna Spawn Egg",
+  "item.obsolete_prehistory.dock_fossil": "Dock Fossil",
 
   "block.obsolete_prehistory.paleobalistum_eggs": "Paleobalistum Eggs",
   "block.obsolete_prehistory.banffia_eggs": "Banffia Eggs",
+  "block.obsolete_prehistory.antarctilamna_sac": "Antarctilamna Sac",
+
+
+
+
   "block.obsolete_prehistory.devious_skull": "Devious Skull"
 }

@@ -11,6 +11,9 @@ public class OPModelLayers {
     public static final ModelLayerLocation BANFFIA = register("banffia");
     public static final ModelLayerLocation BABY_BANFFIA = register("baby_banffia");
 
+    public static final ModelLayerLocation ANTARCTILAMNA = register("antarctilamna");
+    public static final ModelLayerLocation BABY_ANTARCTILAMNA = register("baby_antarctilamna");
+
     private static ModelLayerLocation register(String id) {
         return new ModelLayerLocation(ObsoletePrehistory.location(id), "main");
     }

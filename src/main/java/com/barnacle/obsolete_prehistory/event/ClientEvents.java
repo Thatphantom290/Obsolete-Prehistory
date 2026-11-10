@@ -1,8 +1,10 @@
 package com.barnacle.obsolete_prehistory.event;
 
 import com.barnacle.obsolete_prehistory.ObsoletePrehistory;
+import com.barnacle.obsolete_prehistory.client.model.AntarctilamnaModel;
 import com.barnacle.obsolete_prehistory.client.model.BanffiaModel;
 import com.barnacle.obsolete_prehistory.client.model.PaleobalistumModel;
+import com.barnacle.obsolete_prehistory.client.render.entity.AntarctilamnaRenderer;
 import com.barnacle.obsolete_prehistory.client.render.entity.BanffiaRenderer;
 import com.barnacle.obsolete_prehistory.client.render.entity.PaleobalistumRenderer;
 import com.barnacle.obsolete_prehistory.registry.OPEntities;
@@ -19,6 +21,7 @@ public class ClientEvents {
     public static void registerEntityRenderers(EntityRenderersEvent.RegisterRenderers event) {
         event.registerEntityRenderer(OPEntities.PALEOBALISTUM.get(), PaleobalistumRenderer::new);
         event.registerEntityRenderer(OPEntities.BANFFIA.get(), BanffiaRenderer::new);
+        event.registerEntityRenderer(OPEntities.ANTARCTILAMNA.get(), AntarctilamnaRenderer::new);
     }
 
     @SubscribeEvent
@@ -27,5 +30,7 @@ public class ClientEvents {
         event.registerLayerDefinition(OPModelLayers.BABY_PALEOBALISTUM, PaleobalistumModel::createBabyBodyLayer);
         event.registerLayerDefinition(OPModelLayers.BANFFIA, BanffiaModel::createBodyLayer);
         event.registerLayerDefinition(OPModelLayers.BABY_BANFFIA, BanffiaModel::createBabyBodyLayer);
+        event.registerLayerDefinition(OPModelLayers.ANTARCTILAMNA, AntarctilamnaModel::createBodyLayer);
+        event.registerLayerDefinition(OPModelLayers.BABY_ANTARCTILAMNA, AntarctilamnaModel::createBabyBodyLayer);
     }
 }
